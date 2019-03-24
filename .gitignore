@@ -20,3 +20,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+.temp
+.Rproj.user
+_publish.R
+_book
+_bookdown_files
+openbiox-disease-kb_files

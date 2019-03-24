@@ -1,0 +1,49 @@
+--- 
+title: "Wiki of openbiox-disease-kb"
+author: "openbiox ak47 team"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is the wiki book of openbiox-disease-kb project based on bookdown."
+---
+
+# 简介
+
+[openbiox-disease-kb](https://github.com/openbiox/openbiox-disease-kb) 是由 openbiox 于 2019 年 3 月发起的一个社区维护项目。
+
+期望能够建立一个由社区共同维护更新的人类疾病数据解读相关的知识库和一部分配套的交互式网页可视化和计算应用。
+
+项目发展的初期阶段以整合已有中英文公共的结构化数据库为主。辅助添加一部分高分文献提供的表型关联数据。
+
+## 拟收集的数据资源类型
+
+- 疾病分类数据（WHO/最新综述/最新科学文献）：临床诊断使用的分类 + 基于基因突变分类 + 基因表达分类
+- 基因型（如生殖细胞和体细胞突变）与疾病表型的关联
+- 基因表达数据（GEO/TCGA/TARGET；mRNA + Non-coding RNA）与疾病亚型的关联
+- 可变剪切与疾病亚型的关联
+- 基因组和转录组的关联：eQTL，sQTL
+- 蛋白质组和代谢组数据与疾病亚型的关联
+- 图像数据（如细胞形态、核型、细胞计数、亚细胞定位、医学影像）与疾病表型的关联
+
+## 进度安排
+
+- 2019/03/23-2019/04/02 收集知识库数据的来源数据库和网页服务
+- 2019/04/03-2019/05/03 从选定的数据库和网页服务下载或者爬取数据
+- 对获取的数据进行清洗（包括一部分数据的翻译）、分类和统计（时间待定） 
+- 设计网页服务前端界面（有前期基础）
+- 开发数据库和网页后台服务（有前期基础）
+
+## 推荐掌握的技能
+
+- 中英文文献阅读和总结能力
+- Markdown，R markdown，blogdown 等文档系统的使用
+- Python （特别是爬虫技术） 和 R 语言（特别是统计和可视化）的编程能力
+- 数据库设计技能（MySQL，Redis）
+- 网页前后端开发框架的使用（Vue.js，Express.js 必备）
+
+## 授权
+
+本项目向商业用户收取数据的授权使用费（发布基础版和升级版），学术用户免费。知识产权由 ak47 项目团队以及 openbiox 所共有。
